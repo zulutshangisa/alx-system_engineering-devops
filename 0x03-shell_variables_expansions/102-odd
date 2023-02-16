@@ -1,2 +1,2 @@
-#!bin/bash
-perl -l 'print if $. % 2 ==l'
+#!/bin/bash
+cat -n | grep [13579][[:space:]] | tr -s ' ' | cut -f2
